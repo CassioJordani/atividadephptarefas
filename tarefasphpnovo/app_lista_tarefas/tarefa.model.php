@@ -5,10 +5,9 @@ class Tarefa {
     private $tarefa;
     private $data_cadastro;
     private $arquivada; 
-	private $prioridade; 
-	private $prazo; 
-	private $id_categoria; // Adicione este atributo
-
+    private $prioridade; 
+    private $prazo; 
+    private $id_categoria; 
 
 
 
