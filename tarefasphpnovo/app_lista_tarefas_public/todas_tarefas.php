@@ -171,20 +171,4 @@
 			</div>
 		</div>
 	</body>
-	<script>
-		document.getElementById('categoriaFiltro').addEventListener('change', function() {
-			var categoriaSelecionada = this.value;
-			var tarefas = document.querySelectorAll('.tarefa');
-
-			tarefas.forEach(function(tarefa) {
-				var categoriaTarefa = tarefa.getAttribute('data-categoria');
-																
-				if (categoriaSelecionada === 'todas' || categoriaTarefa === categoriaSelecionada) {
-					tarefa.style.display = 'block';
-				} else {
-					tarefa.style.display = 'none';
-				}
-			});
-		});
-	</script>
 </html>
